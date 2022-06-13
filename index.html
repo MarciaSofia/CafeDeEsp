@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi:ital@0;1&display=swap" rel="stylesheet">
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://raw.github.com/daneden/animate.css/master/animate.css">
     <title>Cafe de Especialidad | INICIO</title>
     <link type="image/png" sizes="16x16" rel="icon" href="./imagenes/icons8-cafe-doodle-color-96.png">
     <link rel="stylesheet" href="./estilos/style.css">
@@ -16,7 +18,7 @@
     <div class="grilla">
         <!-- ENCABEZADO -->
         <section class="h1tit">
-            <h1 class="h1titi">CAFE DE ESPECIALIDAD</h1>
+            <h1 class="wow animate__animated animate__fadeInLeftBig">CAFE DE ESPECIALIDAD</h1>
         </section>
         <header class="header">
             <nav class="barranav">
@@ -37,19 +39,19 @@
         <!-- imagen 1 y descripcion -->
         <section class="section1">
             <img src="./imagenes/Captura de Pantalla 2022-05-23 a la(s) 20.33.54.png" alt="" class="tam-img1">
-            <h2>Lorem ipsum dolor sit amet.</h2>
+            <h2 class="wow animate__animated animate__bounceInRight">Lorem ipsum dolor sit amet.</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, maiores.</p>
         </section>
         <!-- imagen 2 y descripcion -->
         <section class="section2">
             <img src="./imagenes/Captura de Pantalla 2022-05-23 a la(s) 20.34.29.png" alt="" class="tam-img2">
-            <h2>Lorem ipsum dolor sit amet.</h2>
+            <h2 class="wow animate__animated animate__bounceInRight">Lorem ipsum dolor sit amet.</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, dicta.</p>
         </section>
         <!-- imagen 3 y descripcion -->
         <section class="section3">
             <img src="./imagenes/Captura de Pantalla 2022-05-23 a la(s) 20.34.49.png" alt="" class="tam-img3">
-            <h2>Lorem ipsum dolor sit amet.</h2>
+            <h2 class="wow animate__animated animate__bounceInLeft">Lorem ipsum dolor sit amet.</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, labore?</p>
         </section>
         <!-- PIE DE PAGINA -->
@@ -61,5 +63,10 @@
             </ol>
         </footer>
     </div>
+
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>
